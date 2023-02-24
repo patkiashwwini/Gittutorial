@@ -6,7 +6,7 @@ console.log(document.domain);
 //headerTitle.textContent ="Hello";
 //headerTitle.innerText ='Goodbye';
 //headerTitle.innerHTML = '<h3>hello</h3>';
-let items =document.getElementsByClassName('list-group-item');
+/*let items =document.getElementsByClassName('list-group-item');
 console.log(items);
 console.log(items[1]);
 items[1].textContent = 'hello 2';
@@ -24,4 +24,12 @@ li[1].style.fontWeight = 'bold';
 li[1].style.backgroundColor ='yellow';
 for(let i=0;i<items.length;i++){
     li[i].style.backgroundColor = 'gray';
-}
+}*/
+ let header = document.querySelector('#main header');
+ //header.style.borderBottom = 'solid 4px #ccc';
+
+ let input = document.querySelector('input');
+  input.value = 'hello world';
+
+  let submit =document.querySelector('input[type = "submit"]');
+  submit.value = "SEND";
